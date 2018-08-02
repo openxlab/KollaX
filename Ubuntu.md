@@ -6,3 +6,5 @@ sudo apt-get install --no-install-recommends ubuntu-desktop
 sudo apt-get install conf-editor
 dconf-editor
 ORG > GNOME > DESKTOP > REMOTE ACCESS
+sudo vi /etc/netplan/01-netcfg.yaml
+renderer: NetworkManager
